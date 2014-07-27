@@ -7,7 +7,7 @@ h1, h2, h3 {
 h1 {
 	font-weight: bold;
 	font-size: 4em;
-	margin-top: 300px;
+	margin-top: 480px;
 	color: #FFF;
 }
 
@@ -74,7 +74,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-	color: #9E1105;
+	color: #32FF4A;
 }
 
 #navbox {
@@ -93,7 +93,7 @@ input[type="button"]:hover {
 #home-section {
 	margin-top: 0px;
 	height: 760px;
-	background-image: url(../images/img-2.jpg);
+	background-image: url(../images/pluginwear027.jpg);
 	background-size: cover;
 	position: relative;
 	background-repeat: no-repeat;
@@ -137,23 +137,24 @@ input[type="button"]:hover {
 }
 
 #about-break {
-	background-image: url(/images/img-8.jpg);
+	background-image: url(/images/pluginwear034.jpg);
 	position: relative;
 	z-index: 5;
 }
 
 #benefits-break {
-	background-image: url(../images/img-5.jpg);
+	background-image: url(../images/pluginwear030.jpg);
 	position: relative;
 }
 
-#buy-break {
-	background-image: url(../images/img-6.jpg);
+#grey-break {
+	background-image: url(../images/pluginwear018.jpg);
 	position: relative;
+	margin-top: 50px;
 }
 
 #contact-break {
-	background-image: url(../images/img-7.jpg);
+	background-image: url(../images/pluginwear032.jpg);
 	position: relative;
 }
 
@@ -165,7 +166,9 @@ input[type="button"]:hover {
 }
 
 .product-images {
-		height: auto;
+		width: 160px;
+		height: 240px;
+		margin-bottom: 15px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -173,25 +176,16 @@ input[type="button"]:hover {
 		vertical-align: auto;
 	}
 
-#lebara {
-	width: 150px;
-	margin-bottom: 15px;
-	/*transform:rotate(90deg);
-	-ms-transform:rotate(90deg);*/ /* IE 9 */
-	/*-webkit-transform:rotate(90deg);*/ /* Opera, Chrome, and Safari */
+#electric-blue:hover {
+	background-image: url(../images/pluginwear015.jpg);
+	width: 160px;
+		height: 240px;
+		margin-bottom: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		vertical-align: auto;
 }
 
 
-#oyster {
-	width: 250px;
-	margin-top: 90px;
-	/*transform:rotate(270deg);*/
-	/*-ms-transform:rotate(270deg);*/ /* IE 9 */
-	/*-webkit-transform:rotate(270deg);*/ /* Opera, Chrome, and Safari */
-}
-
-
-#guidebook {
-	margin-bottom: 25px;
-	width: 150px;
-}
